@@ -15,7 +15,7 @@ addItem(newItem) {
 }
 
 removeItem(itemToRemove) {
-    const indexItemRemove = this.#items.indexof(itemToRemove);
+    const indexItemRemove = this.#items.indexOf(itemToRemove);
     if (indexItemRemove !== -1) { 
         this.#items.splice(indexItemRemove, 1);
     }
